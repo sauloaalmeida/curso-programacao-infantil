@@ -28,13 +28,13 @@ try:
 
         time.sleep(tempo)
 
-        print(f"\033[{linha};{coluna}H" + preto + olhos_abertos)
+        print(f"\033[{linha};{coluna}H  " + preto)
 
         print(f"\033[{linha};{coluna}H" + cor + olhos_fechados)
 
         time.sleep(tempo/5)
         
-        print(f"\033[{linha};{coluna}H" + preto + olhos_fechados)
+        print(f"\033[{linha};{coluna}H  " + preto)
 
 
 except KeyboardInterrupt:
